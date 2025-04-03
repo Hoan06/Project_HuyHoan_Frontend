@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/icons/logo.png" type="image/x-icon" />
+    <title>Trang chủ</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/do-test.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <div class="header-left">
+            <h3 class="title">QuizzForge</h3>
+          </div>
+          <div class="header-center">
+            <input
+              class="input-search"
+              type="text"
+              placeholder="Tìm kiếm bài test"
+            />
+          </div>
+          <div class="header-right">
+            <a href="" class="home">Trang chủ</a>
+            <a href="../pages/login.html" class="logout">Đăng xuất</a>
+            <a href="" class="icon-three-tiles"
+              ><ion-icon class="icon-tiles" name="menu-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </header>
+      <div id="form-overlay" class="overlay">
+        <form action="">
+          <div class="block-head-title">
+            <ion-icon
+              id="icon-close"
+              class="icon-close"
+              name="close-outline"
+            ></ion-icon>
+          </div>
+          <div class="main-form">
+            <div class="block-point">
+              <h3 class="title-main-form">Hoàn thành</h3>
+              <div class="block-point-son">
+                <p class="title-block-point-son">Chúc mừng!</p>
+                <p class="notification">Bạn đã hoàn thành bài kiểm tra</p>
+                <div class="diven"></div>
+                <p class="point">Điểm của bạn : 85%</p>
+              </div>
+            </div>
+            <div class="block-result">
+              <div class="title-block-result">Kết quả cụ thể</div>
+              <div class="block-result-info">
+                <p class="total-question">
+                  Tổng số câu hỏi : <span class="number-question">20</span>
+                </p>
+                <p class="true-answer">
+                  Câu trả lời đúng : <span class="number-true-answer">17</span>
+                </p>
+                <p class="false-answer">
+                  Câu trả lời sai : <span class="number-false-answer">3</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="btn-form">
+            <button id="btn-again" class="btn-again">Làm lại</button>
+            <button class="btn-home">Trang chủ</button>
+          </div>
+        </form>
+      </div>
+      <div class="main">
+        <div class="content-main">
+          <div class="block-left">
+            <p class="title-block-left">Điều hướng nhanh</p>
+            <div class="question-list">
+              <button class="question-btn">1</button>
+              <button class="question-btn">2</button>
+              <button class="question-btn">3</button>
+              <button class="question-btn">4</button>
+              <button class="question-btn">5</button>
+              <button class="question-btn">6</button>
+              <button class="question-btn">7</button>
+              <button class="question-btn">8</button>
+              <button class="question-btn">9</button>
+              <button class="question-btn">10</button>
+              <button class="question-btn">11</button>
+              <button class="question-btn">12</button>
+              <button class="question-btn">13</button>
+              <button class="question-btn">14</button>
+              <button class="question-btn">15</button>
+              <button class="question-btn">16</button>
+              <button class="question-btn">17</button>
+              <button class="question-btn">18</button>
+              <button class="question-btn">19</button>
+              <button class="question-btn">20</button>
+            </div>
+            <p class="notes">
+              Lưu ý: Đây là danh sách câu hỏi bạn có thể sử dụng để điều hướng.
+            </p>
+          </div>
+          <div class="block-right">
+            <div class="head-block-right">
+              <h1 class="title-test">Khoa học máy tính</h1>
+              <div class="time">
+                <p class="time-doTest">Thời gian : 25 phút</p>
+                <p>Còn lại : 23:40 phút</p>
+              </div>
+            </div>
+            <div class="info-doQuestion">
+              <p class="info-question">Câu hỏi 1 trên 20 :</p>
+              <p class="question">
+                Which is the part of the computer system that one can physically
+                touch?
+              </p>
+              <div class="answer">
+                <input type="checkbox" />
+                <p>Data</p>
+              </div>
+              <div class="answer">
+                <input type="checkbox" />
+                <p>Data</p>
+              </div>
+              <div class="answer">
+                <input type="checkbox" />
+                <p>Data</p>
+              </div>
+              <div class="answer">
+                <input type="checkbox" />
+                <p>Data</p>
+              </div>
+            </div>
+            <div class="btn-doTest">
+              <button id="finish" class="finish">Hoàn thành</button>
+              <div>
+                <button class="btn-back">Trước</button>
+                <button class="btn-next">Tiếp</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p class="copyright">© 2025 Quiz App. All rights reserved.</p>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="../js/do-test.js"></script>
+  </body>
+</html>

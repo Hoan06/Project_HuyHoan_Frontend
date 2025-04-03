@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 59px;
+    background-color: #212529;
+    padding: 8px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.5px 60px;
+}
+
+.header-left .title {
+    width: 124px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.header-right a {
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 76px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 16.84px;
+    line-height: 27px;
+    letter-spacing: 0px;
+}
+
+a:hover {
+    color: #b8b7b7;
+}
+
+.header-right  {
+    display: flex;
+    gap: 52px;
+    white-space: nowrap;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.content-main {
+    height: 615px;
+    background-color: #00000000;
+}
+
+.main .title-content-main {
+    font-weight: 500;
+    font-size: 31.01px;
+    line-height: 38.39px;
+    letter-spacing: 0px;
+    color: #212529;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.main .btn-add {
+    width: 152px;
+    height: 38px;
+    border-radius: 6px;
+    background-color: #0D6EFD;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.btn-add:hover {
+    background-color: #0553c7;
+}
+
+.content-main .addAndSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-main .select-sort {
+    width: 150px;
+    height: 38px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 15.79px;
+    line-height: 26px;
+}
+
+.content-main .input-search {
+    width: 220px;
+    height: 38px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 15.79px;
+    line-height: 26px;
+    padding-left: 13px;
+    padding-bottom: 5.39px;
+    padding-top: 6.61px;
+}
+
+th {
+    background-color: #373B3E;
+    color: white;
+}
+
+.content-main .th-id {
+    text-align: center;
+    width: 90px;
+    height: 41px;
+    font-weight: 800;
+    font-size: 14.7px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.content-main .th-question {
+    width: 978px;
+    height: 41px;
+    font-weight: 800;
+    font-size: 15.55px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-left: 8.46px;
+}
+
+
+.content-main .th-act {
+    width: 227px;
+    height: 41px;
+    font-weight: 800;
+    font-size: 14.61px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #DEE2E6; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF; 
+}
+
+.content-main .td-id {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    height: 48px;
+    text-align: center;
+}
+
+.content-main .td-question {
+    padding-left: 8.52px;
+}
+
+.content-main .td-act {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    gap: 5px;
+}
+
+.content-main .btn-fix {
+    background-color: #FFC107;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 41px;
+    height: 31px;
+    cursor: pointer;
+}
+
+.btn-fix:hover {
+    background-color: #c89707;
+}
+
+.content-main .btn-delete {
+    background-color: #DC3545;
+    width: 58px;
+    height: 31px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #b11525;
+}
+
+.footer {
+    width: 100%;
+    height: 56px;
+    background-color: #212529;
+    margin-top: 24.5px;
+}
+
+.footer .copyright {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15.97px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.content-main .name-input-1 {
+    width: 77px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 15.54px;
+    line-height: 24px;
+    color: #212529;
+}
+
+.content-main .name-input-2 {
+    width: 109px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 15.47px;
+    line-height: 24px;
+    color: #212529;
+}
+
+.content-main .input-name-test {
+    width: 1296px;
+    height: 38px;
+    border-radius: 6px;
+    padding-left: 13px;
+    margin-top: 8.39px;
+    margin-bottom: 15.61px;
+}
+
+.content-main .info-add-question {
+    display: flex;
+    gap: 42px;
+}
+
+.info-add-question .info-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-add-question .select-info {
+    margin-top: 8.61px;
+    margin-bottom: 23.78px;
+    width: 163px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 15.79px;
+    line-height: 26px;
+}
+
+.info-add-question .input-time {
+    width: 163px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 15.79px;
+    line-height: 26px; 
+    margin-top: 8.61px;
+    margin-bottom: 23.78px;
+}
+
+.content-main .title-manager-question {
+    width: 1296px;
+    height: 28.8px;
+    font-weight: 500;
+    font-size: 23.35px;
+    line-height: 28.8px;
+}
+
+.content-main .btn-save {
+    width: 92px;
+    height: 38px;
+    border-radius: 6px;
+    background-color: #0D6EFD;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.content-main table {
+    margin-bottom: 24.5px;
+}
+
+.overlay {
+    position: fixed; 
+    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 33px;
+    display: none;
+}
+
+.overlay .form-overlay {
+    width: 500px;
+    height: 509px;
+    border-radius: 8px;
+    background-color: #FFFFFF;    
+}
+
+.form-overlay .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15.5px 9px 16px 16px;
+    border-bottom: 1px solid gray;
+}
+
+.form-overlay .confirm {
+    width: 200px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 23.3px;
+    line-height: 30px;
+}
+
+.form-overlay .icon-close {
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    color: #818181;
+    cursor: pointer;
+} 
+
+.icon-close:hover {
+    color: #5d5b5b;
+}
+
+.form-overlay .btn-form-footer {
+    display: flex;
+    gap: 23px;
+    justify-content: flex-end;
+    padding-right: 22px;
+    padding-top: 18px;
+}
+
+.form-overlay .btn-cancel {
+    width: 83.61000061035156px;
+    height: 37px;
+    border-radius: 6px;
+    background-color: #6C757D;
+    color: white;
+    border: 1px solid transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background-color: #4b4e51;
+}
+
+.form-overlay .btn-save-form {
+    width: 64.41000366210938px;
+    height: 37px;
+    border-radius: 6px;
+    background-color: #0D6EFD;
+    color: white;
+    border: 1px solid transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.btn-save-form:hover {
+    background-color: #0449b0;
+}
+
+.form-overlay .content-form {
+    padding: 16px;
+    border-bottom: 1px solid gray;
+}
+
+.overlay .label-form-add {
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.overlay .input-question-add {
+    width: 451px;
+    height: 38px;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+.overlay .input-answer-add {
+    width: 425px;
+    height: 38px;
+    padding-left: 12px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: relative;
+}
+
+.overlay .info-answer {
+    display: flex;
+    align-items: center;
+}
+
+.overlay .checkbox {
+    width: 42px;
+    height: 38px;
+    background-color: #DEE2E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border: 1px solid gray;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+} 
+
+.info-answer .info-answer-son {
+    position: relative;
+}
+
+.overlay .btn-icon-delete {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #DC3545;
+    font-size: 30px;
+    padding-left: 12px;
+}   
+
+.overlay .add-answer {
+    width: 169.24000549316406px;
+    height: 31px;
+    border-radius: 4px;
+    background-color: #6C757D;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.add-answer:hover {
+    background-color: #555a5e;
+}

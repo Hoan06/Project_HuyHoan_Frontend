@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/icons/logo.png" type="image/x-icon" />
+    <title>QuizForge</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 class="title">Đăng ký</h1>
+        <p class="paragraph">
+          QuizForge - Nền tảng sáng tạo bài kiểm tra trực tuyến, <br />
+          giúp bạn dễ dàng thiết kế, chia sẻ và thực hiện các bài <br />
+          kiểm tra một cách nhanh chóng và hiệu quả!
+        </p>
+        <form action="" class="form">
+          <input
+            class="input-name"
+            id="input-name"
+            type="text"
+            placeholder="Họ và tên"
+          />
+          <p class="error" id="error-name"></p>
+          <input
+            class="input-email"
+            id="input-email"
+            type="email"
+            placeholder="Địa chỉ email"
+          />
+          <p class="error" id="error-email"></p>
+          <input
+            class="input-password"
+            type="password"
+            id="input-password"
+            placeholder="Mật khẩu"
+          />
+          <p class="error" id="error-password"></p>
+          <input
+            class="input-password-check"
+            type="password"
+            id="input-password-check"
+            placeholder="Xác nhận mật khẩu"
+          />
+          <p class="error" id="error-password-check"></p>
+          <button class="btn" id="btn">Đăng ký</button>
+          <div class="footerForm">
+            <p>Đã có tài khoản?</p>
+            <a class="logup" href="./login.html">Đăng nhập</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="../js/register.js"></script>
+  </body>
+</html>

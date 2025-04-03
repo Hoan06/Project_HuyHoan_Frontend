@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/icons/logo.png" type="image/x-icon" />
+    <title>Quản lý bài test</title>
+    <link rel="stylesheet" href="../css/test-manager.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <div class="header-left">
+            <h3 class="title">QuizzForge</h3>
+          </div>
+          <div class="header-right">
+            <a href="../pages/category-manager.html" class="category"
+              >Danh mục</a
+            >
+            <a href="../pages/test-manager.html">Bài test</a>
+            <a href="../pages/login.html">Đăng xuất</a>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="content-main">
+          <h2 class="title-content-main">Quản lý bài test</h2>
+          <div class="addAndSearch">
+            <button id="btn-add" class="btn-add">Thêm bài test</button>
+            <div>
+              <select class="select-sort" name="" id="">
+                <option value="">Sắp xếp theo</option>
+              </select>
+              <input
+                class="input-search"
+                type="text"
+                placeholder="Tìm kiếm theo tên"
+              />
+            </div>
+          </div>
+          <div id="overlay" class="overlay">
+            <form action="" id="form-overlay" class="form-overlay">
+              <div class="head">
+                <p class="confirm">Xác nhận xóa</p>
+                <ion-icon
+                  id="icon-close"
+                  class="icon-close"
+                  name="close-outline"
+                ></ion-icon>
+              </div>
+              <p class="paragraph-confirm">
+                Bạn chắc chắn muốn xóa bài test này ?
+              </p>
+              <div class="btn-form-footer">
+                <button id="btn-cancel" class="btn-cancel">Hủy</button>
+                <button class="btn-delete-form">Xóa</button>
+              </div>
+            </form>
+          </div>
+          <table>
+            <thead>
+              <th class="th-id">ID</th>
+              <th class="th-name">Tên bài test</th>
+              <th class="th-category">Danh mục</th>
+              <th class="th-question">Số câu hỏi</th>
+              <th class="th-time">Thời gian</th>
+              <th class="th-act">Hành động</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="td-id">1</td>
+                <td class="td-name">History Quiz</td>
+                <td class="td-category">🧠 Khoa học</td>
+                <td class="td-question">11</td>
+                <td class="td-time">5 min</td>
+                <td class="td-act">
+                  <button class="btn-fix">Sửa</button>
+                  <button id="btn-delete" class="btn-delete">Xóa</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="td-id">1</td>
+                <td class="td-name">History Quiz</td>
+                <td class="td-category">🧠 Khoa học</td>
+                <td class="td-question">11</td>
+                <td class="td-time">5 min</td>
+                <td class="td-act">
+                  <button class="btn-fix">Sửa</button>
+                  <button id="btn-delete" class="btn-delete">Xóa</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="td-id">1</td>
+                <td class="td-name">History Quiz</td>
+                <td class="td-category">🧠 Khoa học</td>
+                <td class="td-question">11</td>
+                <td class="td-time">5 min</td>
+                <td class="td-act">
+                  <button class="btn-fix">Sửa</button>
+                  <button id="btn-delete" class="btn-delete">Xóa</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="td-id">1</td>
+                <td class="td-name">History Quiz</td>
+                <td class="td-category">🧠 Khoa học</td>
+                <td class="td-question">11</td>
+                <td class="td-time">5 min</td>
+                <td class="td-act">
+                  <button class="btn-fix">Sửa</button>
+                  <button id="btn-delete" class="btn-delete">Xóa</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <button class="page-btn-back">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </button>
+          <button class="page-btn-1">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">3</button>
+          <button class="page-btn-next">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
+        </div>
+      </main>
+      <footer class="footer">
+        <p class="copyright">© 2025 QuizForge. All rights reserved.</p>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="../js/test-manager.js"></script>
+  </body>
+</html>
