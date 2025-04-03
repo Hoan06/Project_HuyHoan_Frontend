@@ -12,7 +12,7 @@ const emailList = JSON.parse(localStorage.getItem("email")) || [];
 function clearError(input, errorElement) {
     input.addEventListener("input", function () {
         errorElement.textContent = "";
-        input.style.border = "1px solid #ccc"; // Trả lại viền mặc định
+        input.style.border = "1px solid #ccc"; 
     });
 }
 
